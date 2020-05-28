@@ -28,7 +28,6 @@ code,
 del,
 dfn,
 em,
-img,
 ins,
 kbd,
 q,
@@ -126,6 +125,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 115, 0, 0.75);
+}
+.CompanyName {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 64px;
+  color: #2f2f2f;
+  width: 100%;
+  margin-left: 4%;
+}
+nav {
+  margin-bottom: 4%;
+  margin-top: 4%;
+  width: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+.About {
+  margin-right: 3%;
+}
+.LogIn {
+  margin-right: 3%;
+}
+.SignUp {
+  margin-right: 3%;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.About,
+.LogIn {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2f2f2f;
+  text-decoration: none;
+  margin-top: 2%;
+}
+.bt {
+  background-color: rgba(194, 59, 33, 0.85);
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10%;
+}
+.Team {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 48px;
+  color: #2f2f2f;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+}
+.Lead {
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 33%;
+  margin: 5px auto;
+  margin-bottom: 15px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  color: black;
+}
+.PL {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-right: 15px;
+  align-self: auto;
+}
 .Group {
   display: flex;
   flex-wrap: wrap;
@@ -185,39 +266,4 @@ table {
   background-color: white;
   flex: 0 1 auto;
   align-self: auto;
-}
-@font-face {
-  font-family: 'Merienda';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Merienda'), local('Merienda-Regular_0_wt'), url(https://fonts.gstatic.com/s/merienda/v8/gNMHW3x8Qoy5_mf8uVMC.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Merienda';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Merienda Bold'), local('Merienda-Bold'), url(https://fonts.gstatic.com/s/merienda/v8/gNMAW3x8Qoy5_mf8uWu-Fa-y.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG00900e0.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkQl3kw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkpl3kw.ttf) format('truetype');
 }
