@@ -125,6 +125,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.navigation1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -177,6 +182,27 @@ nav {
   text-align: center;
   display: inline-block;
   border-radius: 10%;
+}
+.footer {
+  background-color: rgba(255, 115, 0, 0.75);
+  padding: 3.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.SocialMedia {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2f2f2f;
+}
+.CopyRights {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #7e828c;
+}
+.Top {
+  background-color: rgba(255, 115, 0, 0.75);
 }
 .Team {
   font-family: 'Merienda', cursive;
@@ -266,4 +292,42 @@ nav {
   background-color: white;
   flex: 0 1 auto;
   align-self: auto;
+}
+.Border {
+  width: 450px;
+  height: 350px;
+  border: 5px solid rgba(194, 59, 33, 0.85);
+  background: white;
+  padding: 15px 15px;
+}
+.BioContent {
+  padding: 1%;
+}
+.Name {
+  padding: 2%;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 36px;
+  color: #2f2f2f;
+}
+.Role {
+  padding: 2%;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #2f2f2f;
+}
+.Summary {
+  padding: 2%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #2f2f2f;
+  font-style: italic;
+}
+.Git {
+  padding: 2%;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #7e828c;
+  font-style: italic;
 }
