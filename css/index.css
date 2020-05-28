@@ -186,8 +186,6 @@ nav {
 .footer {
   background-color: rgba(255, 115, 0, 0.75);
   padding: 3.5%;
-  display: flex;
-  flex-wrap: wrap;
 }
 .SocialMedia {
   font-family: 'Muli', sans-serif;
@@ -203,6 +201,59 @@ nav {
 }
 .Top {
   background-color: rgba(255, 115, 0, 0.75);
+  padding: 6%;
+}
+.Title {
+  font-family: 'Merienda', cursive;
+  font-size: 45px;
+  color: #2f2f2f;
+}
+.Content {
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2f2f2f;
+  padding: 2%;
+}
+.bt2 {
+  background-color: rgba(194, 59, 33, 0.85);
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10%;
+}
+.GrubOn {
+  margin-right: 3%;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.Middle {
+  padding: 2%;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.coolTool {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2f2f2f;
+  padding: 3%;
+}
+.coolTool1 {
+  margin: 7%;
+}
+.TitleBox {
+  display: flex;
+  justify-content: center;
 }
 .Team {
   font-family: 'Merienda', cursive;
