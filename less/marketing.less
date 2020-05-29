@@ -1,6 +1,20 @@
 .Top {
     background-color: @PrimaryColor;
     padding: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 80vh;
+}
+.TopContainer {
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.button2 {
+    padding: 20px;
 }
 .Title {
     font-family: @FontText1;
@@ -31,6 +45,7 @@
 }
 .Middle {
     padding: 2%;
+    text-align: center;
 }
 .features {
     display: flex;
@@ -53,4 +68,65 @@
 .TitleBox {
     display: flex;
     justify-content: center;
+}
+.largeImgContainer {
+    margin-left: 20%;
+}
+@media @mobile {
+    .Top {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .SmallImg {
+        display: none;
+    }
+    .LargeImg{
+        display: none;
+    }
+    .largeImgContainer {
+        margin-right: 20%;
+    }
+}
+@media @tablet {
+    .Top {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .SmallImg {
+        display: none;
+    }
+    .LargeImg{
+        width: 80%;
+        height: 40vh;
+    }
+    .largeImgContainer {
+        margin-right: 20%;
+    }
+}
+@media (max-width: 1600px) {
+    .Top {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .SmallImg {
+        display: none;
+    }
+    .largeImgContainer {
+        margin-right: 20%;
+    }
 }

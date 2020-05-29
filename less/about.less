@@ -7,6 +7,7 @@
   padding: 4%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .Lead {
   display: flex;
@@ -16,13 +17,16 @@
   margin: 5px auto;
   margin-bottom: 15px;
   background-color: white;
-  width: 40%;
+
+}
+.Lead .PL {
   margin: auto;
   margin-bottom: 30px;
   display: flex;
   padding: 30px;
   background-color: white;
   color: black;
+  justify-content: center;
 }
 .PL {
   background-color: white;
@@ -34,7 +38,6 @@
 .Group {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     min-height: 33%;
     margin: 5px auto;
     margin-bottom: 15px;
@@ -131,4 +134,71 @@
     font-size: 18px;
     color: @TextColor2;
     font-style: italic;
+  }
+  .Border2 {
+    width: 350px;
+    height: 350px;
+    border: 5px solid @SecondaryColor;
+    background: white;
+    padding: 15px 15px;
+    
+  }
+  @media @mobile {
+    .PL {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  @media @mobile {
+    .Group .Member {
+      width: 100%;
+      padding: 0;
+      margin-left: 1%;
+    }
+    .Regina {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Nikolai {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Mohammad {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Raul {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Dalton {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Charlie {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .Tommy {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }  
+    .Greg {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  @media @mobile {
+    .Boarder2 {
+      width: 120%;
+    }
   }

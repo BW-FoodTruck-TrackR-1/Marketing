@@ -142,6 +142,7 @@ table {
   color: #2f2f2f;
   width: 100%;
   margin-left: 4%;
+  text-decoration: none;
 }
 nav {
   margin-bottom: 4%;
@@ -154,18 +155,18 @@ nav {
   margin-right: 5%;
 }
 .About {
-  margin-right: 3%;
+  width: 20%;
 }
 .LogIn {
-  margin-right: 3%;
+  width: 20%;
 }
 .SignUp {
-  margin-right: 3%;
   font-family: 'Merienda', cursive;
   font-weight: bold;
   font-size: 24px;
   text-decoration: none;
   color: white;
+  width: 20%;
 }
 .About,
 .LogIn {
@@ -182,6 +183,24 @@ nav {
   text-align: center;
   display: inline-block;
   border-radius: 10%;
+  width: 20%;
+}
+@media (max-width: 500px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .CompanyName {
+    font-size: 290%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .bt {
+    margin-top: 3%;
+  }
 }
 .footer {
   background-color: rgba(255, 115, 0, 0.75);
@@ -199,9 +218,50 @@ nav {
   font-style: italic;
   color: #7e828c;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.SMImgs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 4%;
+}
+.IMGlogo {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.CopyRights {
+  display: flex;
+  justify-content: center;
+}
+.Icon {
+  margin: 4%;
+}
+@media (max-width: 500px) {
+  .footer {
+    text-align: center;
+  }
+}
 .Top {
   background-color: rgba(255, 115, 0, 0.75);
   padding: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  height: 80vh;
+}
+.TopContainer {
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button2 {
+  padding: 20px;
 }
 .Title {
   font-family: 'Merienda', cursive;
@@ -232,6 +292,7 @@ nav {
 }
 .Middle {
   padding: 2%;
+  text-align: center;
 }
 .features {
   display: flex;
@@ -255,6 +316,67 @@ nav {
   display: flex;
   justify-content: center;
 }
+.largeImgContainer {
+  margin-left: 20%;
+}
+@media (max-width: 500px) {
+  .Top {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .SmallImg {
+    display: none;
+  }
+  .LargeImg {
+    display: none;
+  }
+  .largeImgContainer {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 800px) {
+  .Top {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .SmallImg {
+    display: none;
+  }
+  .LargeImg {
+    width: 80%;
+    height: 40vh;
+  }
+  .largeImgContainer {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 1600px) {
+  .Top {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .SmallImg {
+    display: none;
+  }
+  .largeImgContainer {
+    margin-right: 20%;
+  }
+}
 .Team {
   font-family: 'Merienda', cursive;
   font-weight: bold;
@@ -263,20 +385,25 @@ nav {
   padding: 4%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .Lead {
+  display: flex;
   flex-wrap: wrap;
   width: 100%;
   min-height: 33%;
   margin: 5px auto;
   margin-bottom: 15px;
-  width: 40%;
+  background-color: white;
+}
+.Lead .PL {
   margin: auto;
   margin-bottom: 30px;
   display: flex;
   padding: 30px;
   background-color: white;
   color: black;
+  justify-content: center;
 }
 .PL {
   background-color: white;
@@ -287,7 +414,6 @@ nav {
 .Group {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   min-height: 33%;
   margin: 5px auto;
   margin-bottom: 15px;
@@ -381,4 +507,70 @@ nav {
   font-size: 18px;
   color: #7e828c;
   font-style: italic;
+}
+.Border2 {
+  width: 350px;
+  height: 350px;
+  border: 5px solid rgba(194, 59, 33, 0.85);
+  background: white;
+  padding: 15px 15px;
+}
+@media (max-width: 500px) {
+  .PL {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .Group .Member {
+    width: 100%;
+    padding: 0;
+    margin-left: 1%;
+  }
+  .Regina {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Nikolai {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Mohammad {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Raul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Dalton {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Charlie {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Tommy {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Greg {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .Boarder2 {
+    width: 120%;
+  }
 }
