@@ -254,7 +254,7 @@ nav {
   height: 80vh;
 }
 .TopContainer {
-  padding: 6%;
+  padding: 1%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -267,6 +267,7 @@ nav {
   font-family: 'Merienda', cursive;
   font-size: 45px;
   color: #2f2f2f;
+  margin-bottom: 4%;
 }
 .Content {
   font-family: 'Muli', sans-serif;
