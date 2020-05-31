@@ -337,6 +337,26 @@ nav {
   .largeImgContainer {
     margin-right: 20%;
   }
+  .bt {
+    width: 90%;
+    background: rgba(194, 59, 33, 0.85);
+    padding: 5% 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .bt2 {
+    width: 90%;
+    background: rgba(194, 59, 33, 0.85);
+    padding: 5% 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+  }
 }
 @media (max-width: 800px) {
   .Top {

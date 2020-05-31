@@ -1,6 +1,11 @@
-// Mixins Styles
-.round-borders (@radius) {
-    border-radius: @radius;
-    -moz-border-radius: @radius;
-    -webkit-border-radius: @radius;
-  }
+
+  .buttons(@width, @vertical) {
+    width: @width;
+    background: @SecondaryColor;
+    padding: @vertical 0;
+    text-align: center;
+    color: @white;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
